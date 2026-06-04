@@ -1,0 +1,23 @@
+# Environments & Virtual Envs
+venv/
+.env
+.env*.local
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+python/
+
+# VS Code config
+.vscode/
+
+# Node/Next.js dependencies and builds (if any leak to root)
+node_modules/
+.next/
+out/
+build/
+dist/
+.DS_Store
